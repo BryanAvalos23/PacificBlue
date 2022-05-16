@@ -290,7 +290,7 @@
                         </div>
                         <h3>Comfortable Living</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat beatae veritatis provident eveniet praesentium veniam cum iusto distinctio esse, vero est autem, eius optio cupiditate?</p>
-                        <img src = "WEB-INF/img/cus2.jpg" alt = "customer image">
+                        <img src = "img/cus2.jpg" alt = "customer image">
                         <span>Customer Name, Country</span>
                     </div>
                     <!-- end of single customer -->
