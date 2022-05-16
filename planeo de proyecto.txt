@@ -1,0 +1,28 @@
+
+lOGIN
+
+-hacer el formulario de login
+-ajustar boton login para que salga el login flotante 
+-hacer diseño del formulario login
+-programar validaciones de si se ha escrito algo en algun input del formulario de login con java
+
+
+REGISTRO
+
+-hacer formulario registro                                                  (Hecho)
+-ajustar boton para que reenvie a la pagina de registro                     (hecho)
+-validar inputs del form con java para pasar a siguiente etapa con java
+-validacion de los campos de tarjeta con java 
+-hacer diseño del form de registro                                          (en proceso)
+-diseñar la pagina del registro agregar backgroud y ajustarlo               (en proceso)
+-ajustar tamaño de fuente de 'pacific blue' que sea mas grande
+
+
+PAGINA PRINCIPAL
+
+-arreglar inputs y select del form de filtro principl web page
+-agregar mas habitaciones en la seccion habitaciones
+-ajustar tamaño de fuente de 'pacific blue' que sea mas grande
+
+A NIVEL GENERAL
+-buscar la codificacion para que la web lea el formato de letra en español con acentos y ñ
