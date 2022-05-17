@@ -26,3 +26,4 @@ PAGINA PRINCIPAL
 
 A NIVEL GENERAL
 -buscar la codificacion para que la web lea el formato de letra en español con acentos y ñ
+-crear pagina de termino y condiciones
