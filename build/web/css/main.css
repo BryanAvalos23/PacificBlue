@@ -541,3 +541,120 @@ img{
     left: 0;
     z-index: 5;
 }
+
+/* PAGINA REGISTRO */
+
+.bodyRegistro{
+    background-image: url(../img/customer-banner.jpg);   
+}
+
+/* HEADER */
+.header-Registro{
+    padding: 25px;
+}
+.header-Registro span{
+    color: var(--white);
+}
+.header-Registro a{
+    color: var(--white);
+    text-decoration: none;
+    cursor: pointer;
+}
+.header-Registro a:hover{
+    color: var(--yellow);
+}
+
+/* PAGE PRINCIPAL FORMULARIO REGISTRO */
+.Container-Principal{
+    /* background-color: #f9d342; */
+    width: 100vw;
+    height: 100vh;
+}
+.ContainerForm{
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    width: 70vw;
+    height: 75vh;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.form-registro{
+    background-color: rgba(80, 80, 80, .5);
+    width: 50vw;
+    border-radius: 25px;
+}
+.tituloRegistro{
+    text-align: center;
+    font-size: 1.5em;
+    color: var(--white);
+}
+.camposRegistro{
+    display: flex;  
+    justify-content: center; 
+}
+.camposEtapa1{
+    margin-right: 1vw;
+}
+.camposEtapa2{
+    margin-left: 1vw;
+}
+.camposRegistro input{
+    width: 21vw;
+    height: 5vh;
+    margin: 3vh;
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid var(--dark);
+    padding: 5px 10px;
+    outline: 0;
+}
+.camposRegistro input::placeholder{
+    color: var(--white);
+    font-size: 2em;
+}
+.camposRegistro input:focus{
+    border-color: #329fe7;
+}
+.checkout-registro{
+    display: flex;
+    margin-left: 1.5vw;
+}
+.check-registro{
+    margin-right: 5px;
+}
+.check-registro input{
+    width: 20px;
+}
+.termino-registro a{
+    color: black;
+    text-decoration: none;
+}
+.button-registro{
+    /* background-color: burlywood; */
+    height: 30vh;
+}
+.button{
+    /* background-color: violet; */
+    text-align: center;
+    height: 36vh;
+    position: relative;   
+}
+.centerbutton{
+    /* background-color: red; */
+    width: 30vw;
+    height: 18vh;
+    position: absolute;
+    margin: 7vh 0 0 20%;
+}
+.centerbutton input{
+    width: 20vw;
+    height: 7vh;
+    border-radius: 10px;
+    border: 0;
+    background-color: rgba(255, 255, 255, .5);
+    font-size: 2em;
+    color: var(--white);
+    cursor: pointer;
+}

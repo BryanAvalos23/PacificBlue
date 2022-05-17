@@ -43,7 +43,7 @@
                 <li><a href = "#rooms">rooms</a></li>
                 <li><a href = "#customers">customers</a></li>
             </ul>
-            <button class = "btn sign-up">sign up</button>
+            <button class = "btn sign-up" id="sign-up"><a href="Vistas/registro.jsp">sign up</a></button>
             <button class = "btn log-in">log in</button>
         </div>
         <!-- end of side navbar -->
