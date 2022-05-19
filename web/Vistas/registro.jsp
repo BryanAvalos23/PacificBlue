@@ -37,14 +37,10 @@
                                     <input type="text" name="apellidos" id="apellidos" placeholder="Apellidos">
                                 </div>
                                 <div>
-<<<<<<< HEAD
-                                    <input type="text" name="direccion" id="direccion" placeholder="Dirección">
-=======
                                     <input type="text" name="dui" id="dui" placeholder="Dui">
                                 </div>
                                 <div>
-                                    <input type="text" name="telefono" id="telefono" placeholder="Telefono">
->>>>>>> devs
+                                    <input type="text" name="telefono" id="telefono" placeholder="Telefono">                                
                                 </div>
                             </div>
 
@@ -53,13 +49,10 @@
                                     <input type="email" name="email" id="email" placeholder="Email">
                                 </div>
                                 <div>
-                                    <input type="password" name="pass" id="pass" placeholder="Contraseña">
-<<<<<<< HEAD
-=======
-                                </div>
-                                 <div>
                                     <input type="text" name="pickname" id="pickname" placeholder="Nombre de Usuario">
->>>>>>> devs
+                                </div>
+                                <div>
+                                    <input type="password" name="pass" id="pass" placeholder="Contraseña">
                                 </div>
                                 <div>
                                     <input type="password" name="confirmarPass" id="confirmasPass" placeholder="Confirme su contraseña">

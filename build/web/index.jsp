@@ -87,7 +87,6 @@
                     <div class = "service-content">
                         <h2>Food Service/ Food Runner</h2>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias blanditiis tempore officia accusamus asperiores. Illum maxime eligendi necessitatibus laudantium iste nisi pariatur doloremque ut illo similique voluptatum enim distinctio perferendis, ad ipsam aspernatur omnis rem autem ex, reiciendis corporis suscipit!</p>
-                        <button type = "button" class = "btn"><a href="#">Conoce Mas</a></button>
                     </div>
                 </article>
                 <!-- end of single service -->
@@ -101,7 +100,6 @@
                     <div class = "service-content">
                         <h2>Refreshment</h2>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias blanditiis tempore officia accusamus asperiores. Illum maxime eligendi necessitatibus laudantium iste nisi pariatur doloremque ut illo similique voluptatum enim distinctio perferendis, ad ipsam aspernatur omnis rem autem ex, reiciendis corporis suscipit!</p>
-                        <button type = "button" class = "btn">Conoce Mas</button>
                     </div>
                 </article>
                 <!-- end of single service -->
@@ -115,7 +113,6 @@
                     <div class = "service-content">
                         <h2>Housekeeping</h2>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias blanditiis tempore officia accusamus asperiores. Illum maxime eligendi necessitatibus laudantium iste nisi pariatur doloremque ut illo similique voluptatum enim distinctio perferendis, ad ipsam aspernatur omnis rem autem ex, reiciendis corporis suscipit!</p>
-                        <button type = "button" class = "btn">Conoce Mas</button>
                     </div>
                 </article>
                 <!-- end of single service -->
@@ -129,7 +126,6 @@
                     <div class = "service-content">
                         <h2>Room Security</h2>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias blanditiis tempore officia accusamus asperiores. Illum maxime eligendi necessitatibus laudantium iste nisi pariatur doloremque ut illo similique voluptatum enim distinctio perferendis, ad ipsam aspernatur omnis rem autem ex, reiciendis corporis suscipit!</p>
-                        <button type = "button" class = "btn">Conoce Mas</button>
                     </div>
                 </article>
                 <!-- end of single service -->
