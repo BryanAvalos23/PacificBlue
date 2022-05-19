@@ -1,3 +1,4 @@
+<%@page contentType="text/html" pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -36,7 +37,10 @@
                                     <input type="text" name="apellidos" id="apellidos" placeholder="Apellidos">
                                 </div>
                                 <div>
-                                    <input type="text" name="direccion" id="direccion" placeholder="DirecciÃ³n">
+                                    <input type="text" name="dui" id="dui" placeholder="Dui">
+                                </div>
+                                <div>
+                                    <input type="text" name="telefono" id="telefono" placeholder="Telefono">
                                 </div>
                             </div>
 
@@ -45,10 +49,13 @@
                                     <input type="email" name="email" id="email" placeholder="Email">
                                 </div>
                                 <div>
-                                    <input type="password" name="pass" id="pass" placeholder="ContraseÃ±a">
+                                    <input type="password" name="pass" id="pass" placeholder="Contraseña">
+                                </div>
+                                 <div>
+                                    <input type="text" name="pickname" id="pickname" placeholder="Nombre de Usuario">
                                 </div>
                                 <div>
-                                    <input type="password" name="confirmarPass" id="confirmasPass" placeholder="Confirme su contraseÃ±a">
+                                    <input type="password" name="confirmarPass" id="confirmasPass" placeholder="Confirme su contraseña">
                                 </div>
                             </div>
 

@@ -24,7 +24,7 @@
             </div>
             
             <div class = "head-bottom flex">
-                <h2>UN LUGAR AGRADABLE Y CÃ“MODO PARA ALOJARSE</h2>
+                <h2>UN LUGAR AGRADABLE Y CÓMODO PARA ALOJARSE</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto est quos veniam impedit numquam itaque voluptatum, dicta asperiores accusamus, eligendi neque ut incidunt, modi harum molestiae atque natus officia minima.</p>
                 <button type = "button" class = "head-btn"><a href="#book" class="link-reserve">RESERVAR</a></button>
             </div>
