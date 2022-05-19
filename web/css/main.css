@@ -609,6 +609,8 @@ img{
     border-bottom: 2px solid var(--dark);
     padding: 5px 10px;
     outline: 0;
+    color: var(--white);
+    font-size: 2em;
 }
 .camposRegistro input::placeholder{
     color: var(--white);
@@ -657,4 +659,7 @@ img{
     font-size: 2em;
     color: var(--white);
     cursor: pointer;
+}
+.centerbutton input:hover{
+    background-color: var(--dark)
 }
