@@ -6,7 +6,6 @@
     --yellow: #f9d342;
     --dark: #292826;
     --white: #fff;
-    
 }
 *{
     box-sizing: border-box;
@@ -137,7 +136,7 @@ img{
     top: 0;
     bottom: 0;
     right: -100%;
-    width: 300px;
+    width: 400px;
     padding: 20px;
     transition: var(--transition);
     z-index: 10;
@@ -614,7 +613,7 @@ img{
 }
 .camposRegistro input::placeholder{
     color: var(--white);
-    font-size: 2em;
+    /* font-size: 2em; */
 }
 .camposRegistro input:focus{
     border-color: #329fe7;
@@ -663,3 +662,76 @@ img{
 .centerbutton input:hover{
     background-color: var(--dark)
 }
+
+                  /* formulario login */
+
+.Container-PrincipalLog{
+    background-color: #329fe7;
+    height: 80vh;
+}
+.container-FormLog{
+    /* background-color: #f9d342; */
+    width: 25vw;
+    height: 50vh;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container-FormLog form{
+    /* background-image: url(../img/fondoLogin.jpg); */
+    background-size: 170%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50vh;
+    /* border-radius: 25px; */
+    /* color: var(--white); */
+}
+.formLogin{
+    border-radius: 25px;
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+}
+.formLogin.active{
+    opacity: 1;
+    visibility: visible;
+    transition: all 0.4s ease;
+}
+.campos-Login input{
+    width: 15vw;
+    height: 5vh;
+    margin: 3vh;
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid var(--yellow);
+    padding: 5px 10px;
+    outline: 0;
+    color: var(--white);
+    font-size: 2em;
+}
+.campos-Login input::placeholder{
+    color: var(--white);
+}
+.campos-Login input:focus{
+    border-color: #329fe7;
+}
+.button-Login{
+    margin: 2vh;
+}
+.button-Login input{
+    width: 12vw;
+    height: 6vh;
+    border-radius: 10px;
+    border: 0;
+    background-color: rgba(255, 255, 255, .5);
+    font-size: 2em;
+    color: var(--white);
+    cursor: pointer;
+    transition: var(--transition);
+}
+.button-Login input:hover{
+    width: 14vw;
+    height: 7vh;
+    transition: var(--transition);
+}
+button

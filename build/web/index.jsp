@@ -44,7 +44,26 @@
                 <li><a href = "#customers">customers</a></li>
             </ul>
             <button class = "btn sign-up" id="sign-up"><a href="Vistas/registro.jsp">sign up</a></button>
-            <button class = "btn log-in">log in</button>
+            <button class = "btn log-in" id="buttonlog">log in</button>
+            
+            <div class="container-FormLog">
+                <form action="" id="formLogin"  class="formLogin">
+                    <div class="login-Title">
+                        <h2>Login</h2>
+                    </div>
+                    <div class="campos-Login">
+                        <div>
+                            <input type="text" name="usuario" id="usuario" placeholder="Usuario">
+                        </div>
+                        <div>
+                            <input type="text" name="contra" id="contra" placeholder="Contraseña">
+                        </div>
+                        <div class="button-Login">
+                            <input type="submit" value="Ingresar">
+                        </div>
+                    </div>
+                </form>
+            </div>
         </div>
         <!-- end of side navbar -->
         
