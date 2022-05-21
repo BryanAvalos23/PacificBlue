@@ -24,7 +24,7 @@
                     <form action="" class="form-registro">
 
                         <div class="tituloRegistro">
-                            <h2>Registro de usuarios</h2>
+                            <h2>Registro de usuario</h2>
                         </div>
                         
                         <div class="camposRegistro">
