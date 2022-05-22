@@ -155,7 +155,7 @@
                     <input type = "number" min = "1" value = "1" id = "rooms">
                 </div> -->
                 <div class = "form-item">
-                    <label for = "rooms">Categoria de habitaciÃ³n </label>
+                    <label for = "rooms">Categoria de habitación </label>
                     <select name="Categoria-Habitacion" id="Categoria-Habitacion" class="Categoria-Habitacion" >
                         <option value="Seleccionar" class="Category">Seleccionar</option>
                         <option value="Individual" class="Category">Individual</option>
