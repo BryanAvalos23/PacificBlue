@@ -74,7 +74,7 @@
         <!-- body content  -->
         <section class = "services sec-width" id = "services">
             <div class = "title">
-                <h2>services</h2>
+                <h2>Servicios que te ofrecemos</h2>
             </div>
             <div class = "services-container">
                 <!-- single service -->
@@ -185,27 +185,27 @@
                         <img src = "img/img1.jpg" alt = "room image">
                     </div>
                     <div class = "room-text">
-                        <h3>Luxury Rooms</h3>
+                        <h3>Habitación individual</h3>
                         <ul>
                             <li>
                                 <i class = "fas fa-arrow-alt-circle-right"></i>
-                                Lorem ipsum dolor sit amet.
+                                Comodidad para una sola persona.
                             </li>
                             <li>
                                 <i class = "fas fa-arrow-alt-circle-right"></i>
-                                Lorem ipsum dolor sit amet.
+                                Acceso a todos los servicios básicos.
                             </li>
                             <li>
                                 <i class = "fas fa-arrow-alt-circle-right"></i>
-                                Lorem ipsum dolor sit amet.
+                                Opciones extras no incluidas añadibles.
                             </li>
                         </ul>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus exercitationem repellendus maxime ullam tempore architecto provident unde expedita quam beatae, dolore eligendi molestias sint tenetur incidunt voluptas. Unde corporis qui iusto vitae. Aut nesciunt id iste, cum esse commodi nemo?</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla corporis quasi officiis cumque, fugiat nostrum sunt, tempora animi dicta laborum beatae ratione doloremque. Delectus odio sit eius labore, atque quo?</p>
+                        <p>¿Andas de viaje por trabajo o simplemente quieres relajarte en nuestras instalaciones y salir de la rutina por un tiempo?, tenemos la solucion para ti. Habitaciones de acomodación sencilla y austeras con muchas opciones por añadir.</p>
+                        <p>Nota: Servicio a la habitación y servicio de desayuno Buffet no incluidos, se pueden agregar como opciones extra y se agregan en el paquete de acomodación.</p>
                         <p class = "rate">
-                            <span>$99.00 /</span> Per Night
+                            <span>$49.00 /</span> Por noche
                         </p>
-                        <button type = "button" class = "btn">book now</button>
+                        <button type = "btnResIndiv" class = "btn">Reserva ahora</button>
                     </div>
                 </article>
                 <!-- end of single room -->
@@ -215,57 +215,142 @@
                         <img src = "img/img2.jpg" alt = "room image">
                     </div>
                     <div class = "room-text">
-                        <h3>Luxury Rooms</h3>
+                        <h3>Habitación doble</h3>
                         <ul>
                             <li>
                                 <i class = "fas fa-arrow-alt-circle-right"></i>
-                                Lorem ipsum dolor sit amet.
+                                Acomodación doble para quienes quieren mas espacio o pasarla en compañia de manera austera.
                             </li>
                             <li>
                                 <i class = "fas fa-arrow-alt-circle-right"></i>
-                                Lorem ipsum dolor sit amet.
+                                Servicio a la habitación incluido en el paquete.
                             </li>
                             <li>
                                 <i class = "fas fa-arrow-alt-circle-right"></i>
-                                Lorem ipsum dolor sit amet.
+                                Muchas opciones extras disponibles para agregar.
                             </li>
                         </ul>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus exercitationem repellendus maxime ullam tempore architecto provident unde expedita quam beatae, dolore eligendi molestias sint tenetur incidunt voluptas. Unde corporis qui iusto vitae. Aut nesciunt id iste, cum esse commodi nemo?</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla corporis quasi officiis cumque, fugiat nostrum sunt, tempora animi dicta laborum beatae ratione doloremque. Delectus odio sit eius labore, atque quo?</p>
+                        <p>¿Vienes de viaje con un acompañante o con tu pareja y quieres pasar un buen momento sin desajustar tu presupuesto? No te preocupes, pensando en tu economía creamos la acomodación doble sencilla ideal para pasar un buen rato con un amigo o pareja.</p>
+                        <p>Y si tu preferencia es de visitarnos unicamente tu te ofrecemos ésta habitación como una alternativa más amplia y perfecta para pasar un buen rato disfrutando de la televisión HD mientras comes algo pedido por servicio a la habitación incluido.</p>
                         <p class = "rate">
-                            <span>$99.00 /</span> Per Night
+                            <span>$69.00 /</span> Por noche
                         </p>
-                        <button type = "button" class = "btn">book now</button>
+                        <button type = "btnResDob" class = "btn">Reserva ya</button>
                     </div>
                 </article>
                 <!-- end of single room -->
                 <!-- single room -->
                 <article class = "room">
                     <div class = "room-image">
-                        <img src = "img/img3.jpg" alt = "room image">
+                        <img src = "img/img4.jpg" alt = "room image">
                     </div>
                     <div class = "room-text">
-                        <h3>Luxury Rooms</h3>
+                        <h3>Habitación triple</h3>
                         <ul>
                             <li>
                                 <i class = "fas fa-arrow-alt-circle-right"></i>
-                                Lorem ipsum dolor sit amet.
+                                Acomodación ideal para familia y amigos.
                             </li>
                             <li>
                                 <i class = "fas fa-arrow-alt-circle-right"></i>
-                                Lorem ipsum dolor sit amet.
+                                Amplia sala de estar y baños dobles.
                             </li>
                             <li>
                                 <i class = "fas fa-arrow-alt-circle-right"></i>
-                                Lorem ipsum dolor sit amet.
+                                Habitaciones con vista a la piscina exterior.
                             </li>
                         </ul>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus exercitationem repellendus maxime ullam tempore architecto provident unde expedita quam beatae, dolore eligendi molestias sint tenetur incidunt voluptas. Unde corporis qui iusto vitae. Aut nesciunt id iste, cum esse commodi nemo?</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla corporis quasi officiis cumque, fugiat nostrum sunt, tempora animi dicta laborum beatae ratione doloremque. Delectus odio sit eius labore, atque quo?</p>
+                        <p>Si tu ideal de vacación es disfrutar con tus amigos o tu familia tenemos la habitación ideal para ti, acomodación triple para mayor confort de tus cercanos y dos baños para maximizar el confort en todo momento.</p>
+                        <p>En este paquete se añaden las opciones anteriores además de el uso ilimitado de la piscina exterior 24/7.</p>
                         <p class = "rate">
-                            <span>$99.00 /</span> Per Night
+                            <span>$99.00 /</span> Por noche
                         </p>
-                        <button type = "button" class = "btn">book now</button>
+                        <button type = "btnResTri" class = "btn">Reserva ya</button>
+                    </div>
+                </article>
+                
+                 <article class = "room">
+                    <div class = "room-image">
+                        <img src = "img/img5.jpg" alt = "room image">
+                    </div>
+                    <div class = "room-text">
+                        <h3>Habitación cuádruple</h3>
+                        <ul>
+                            <li>
+                                <i class = "fas fa-arrow-alt-circle-right"></i>
+                                Acomodación cuadruple con tres baños y sala de estar.
+                            </li>
+                            <li>
+                                <i class = "fas fa-arrow-alt-circle-right"></i>
+                                Servicio de desayuno a la habitación con reserva previa.
+                            </li>
+                            <li>
+                                <i class = "fas fa-arrow-alt-circle-right"></i>
+                                Habitaciones cerca a las areas verdes y de diversión para los pequeños del hogar.
+                            </li>
+                        </ul>
+                        <p>Toda la familia se va de vacaciones, no encuentras donde llevarlos y que pasen una experiencia única, Pacific Blue es tu mejor opcion, acomodacion cuádruple con acceso a los juegos para chicos y grandes.</p>
+                        <p>En ésta habitación se agrega los paquetes anteriores más el servicio de buffet hasta para 6 personas (Personas extra pagan costo adicional).</p>
+                        <p class = "rate">
+                            <span>$119.00 /</span> Por noche
+                        </p>
+                        <button type = "btnResQuad" class = "btn">Reserva ya</button>
+                    </div>
+                </article>
+                 <article class = "room">
+                    <div class = "room-image">
+                        <img src = "img/img6.jpg" alt = "room image">
+                    </div>
+                    <div class = "room-text">
+                        <h3>Suite Queen</h3>
+                        <ul>
+                            <li>
+                                <i class = "fas fa-arrow-alt-circle-right"></i>
+                                Experimenta el hotel Pacific blue como nunca antes.
+                            </li>
+                            <li>
+                                <i class = "fas fa-arrow-alt-circle-right"></i>
+                                Privacidad y acceso sin importar el clima en nuestra piscina interior.
+                            </li>
+                            <li>
+                                <i class = "fas fa-arrow-alt-circle-right"></i>
+                                Area de spa y masajes incluidos.
+                            </li>
+                        </ul>
+                        <p>¿Estás lista/o para disfrutar todas las comodidades que puedes recibir en un gran hotel como es Pacific Blue? Pues ésta es tu perfecta elección, una habitación amplia, con acabados de lo mejor para tu comodida y que disfrutes al máximo tu estadía en nuestro hotel.</p>
+                        <p>En ésta habitación están disponibles todas las opciones anteriores y se agrega la del acceso al spa y a la piscina interior para tu comodidad.</p>
+                        <p class = "rate">
+                            <span>$149.00 /</span> Por noche
+                        </p>
+                        <button type = "btnResQueen" class = "btn">Reserva ya</button>
+                    </div>
+                </article>
+                 <article class = "room">
+                    <div class = "room-image">
+                        <img src = "img/img7.jpg" alt = "room image">
+                    </div>
+                    <div class = "room-text">
+                        <h3>Suite King</h3>
+                        <ul>
+                            <li>
+                                <i class = "fas fa-arrow-alt-circle-right"></i>
+                                Las mejores vistas disponibles.
+                            </li>
+                            <li>
+                                <i class = "fas fa-arrow-alt-circle-right"></i>
+                                Terraza para apreciar mejor la vista al mar.
+                            </li>
+                            <li>
+                                <i class = "fas fa-arrow-alt-circle-right"></i>
+                                Servicios premium como spa a la habitación, ascensor exclusivo, valet parking.
+                            </li>
+                        </ul>
+                        <p>Bienvenido a lo mejor de lo mejor, te presentamos la King Suite, lo mejor en lujo y vistas te lo ofrecemos acá te sentirás como un rey con lo mejor en acabados y servicios para que tu estancia sea completamente inolvidable y que no quieras salir nunca de nuestro hotel.</p>
+                        <p>Todos los servicios disponibles, incluye un tour en nuestro tourboat completamente gratis las veces que quieras. Nota: Servicios como spa a la habitación y tourboat limitado de 9:00 A.M. a 5:00 P.M.</p>
+                        <p class = "rate">
+                            <span>$199.00 /</span> Por noche
+                        </p>
+                        <button type = "btnResKing" class = "btn">Reserva ya</button>
                     </div>
                 </article>
                 <!-- end of single room -->
