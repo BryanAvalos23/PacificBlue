@@ -25,7 +25,7 @@
             
             <div class = "head-bottom flex">
                 <h2>UN LUGAR AGRADABLE Y CÓMODO PARA ALOJARSE</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto est quos veniam impedit numquam itaque voluptatum, dicta asperiores accusamus, eligendi neque ut incidunt, modi harum molestiae atque natus officia minima.</p>
+                <p>La cadena de hoteles Pacific Blue tiene como objetivo proporcionar el mayor confort en cualquiera de sus 10 hoteles, con galardones internacionales e insignias en atención a los clientes de nuestros lugares.</p>
                 <button type = "button" class = "head-btn"><a href="#book" class="link-reserve">RESERVAR</a></button>
             </div>
         </header>
@@ -85,8 +85,8 @@
                         </span>
                     </div>
                     <div class = "service-content">
-                        <h2>Food Service/ Food Runner</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias blanditiis tempore officia accusamus asperiores. Illum maxime eligendi necessitatibus laudantium iste nisi pariatur doloremque ut illo similique voluptatum enim distinctio perferendis, ad ipsam aspernatur omnis rem autem ex, reiciendis corporis suscipit!</p>
+                        <h2>Servicio a la habitación y desayuno buffet</h2>
+                        <p>Sabemos que un buen servicio de restaurante es algo primordial para cualquier hotel de prestigio y el nuestro no es la excepción, con la carta mas completa de entradas, platos principales y postres así como una zona de bar para tu diversión.</p>
                     </div>
                 </article>
                 <!-- end of single service -->
@@ -98,8 +98,8 @@
                         </span>
                     </div>
                     <div class = "service-content">
-                        <h2>Refreshment</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias blanditiis tempore officia accusamus asperiores. Illum maxime eligendi necessitatibus laudantium iste nisi pariatur doloremque ut illo similique voluptatum enim distinctio perferendis, ad ipsam aspernatur omnis rem autem ex, reiciendis corporis suscipit!</p>
+                        <h2>Piscina de interior y exterior climatizada.</h2>
+                        <p>No hay nada mejor para relajarse que un tiempo para poder nadar o simplemente tomar el sol junto a una piscina amplia lista para darse un chapuzón, si no es de tu agrado nadar bajo el sol o el clima te ofrecemos una piscina interior climatizada lista para tu uso.</p>
                     </div>
                 </article>
                 <!-- end of single service -->
@@ -111,8 +111,8 @@
                         </span>
                     </div>
                     <div class = "service-content">
-                        <h2>Housekeeping</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias blanditiis tempore officia accusamus asperiores. Illum maxime eligendi necessitatibus laudantium iste nisi pariatur doloremque ut illo similique voluptatum enim distinctio perferendis, ad ipsam aspernatur omnis rem autem ex, reiciendis corporis suscipit!</p>
+                        <h2>Limpieza de habitaciones diaria</h2>
+                        <p>La limpieza es algo fundamental en nuestros establecimientos, tus habitaciones son aseadas de la mejor manera a diario respetando tu privacidad y siempre y cuando sea de tu elección que sea así, todas las habitaciones son completamente sanitizadas despues de que el usuario deja su uso.</p>
                     </div>
                 </article>
                 <!-- end of single service -->
@@ -124,8 +124,8 @@
                         </span>
                     </div>
                     <div class = "service-content">
-                        <h2>Room Security</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias blanditiis tempore officia accusamus asperiores. Illum maxime eligendi necessitatibus laudantium iste nisi pariatur doloremque ut illo similique voluptatum enim distinctio perferendis, ad ipsam aspernatur omnis rem autem ex, reiciendis corporis suscipit!</p>
+                        <h2>Lo ultimo de tecnología en seguridad.</h2>
+                        <p>La seguridad es algo muy importante tanto como el confort del uso de ella, así que implementamos un sistema biométrico para que nadie mas que tú y los que tu elijas al momento del registro puedan entrar a tu habitación de una manera sencilla y sin tarjetas o algun otra llave que pueda perderse en cualquier momento.</p>
                     </div>
                 </article>
                 <!-- end of single service -->
@@ -135,11 +135,11 @@
         <div class = "book" id="book">
             <form class = "book-form">
                 <div class = "form-item">
-                    <label for = "checkin-date">Check In Date: </label>
+                    <label for = "checkin-date">Fecha de entrada: </label>
                     <input type = "date" id = "chekin-date">
                 </div>
                 <div class = "form-item">
-                    <label for = "checkout-date">Check Out Date: </label>
+                    <label for = "checkout-date">Fecha de salida: </label>
                     <input type = "date" id = "chekout-date">
                 </div>
                 <!-- <div class = "form-item">
@@ -155,7 +155,7 @@
                     <input type = "number" min = "1" value = "1" id = "rooms">
                 </div> -->
                 <div class = "form-item">
-                    <label for = "rooms">Categoria de habitaciÃ³n </label>
+                    <label for = "rooms">Categoria de habitación: </label>
                     <select name="Categoria-Habitacion" id="Categoria-Habitacion" class="Categoria-Habitacion" >
                         <option value="Seleccionar" class="Category">Seleccionar</option>
                         <option value="Individual" class="Category">Individual</option>
@@ -169,14 +169,14 @@
                 </div>
 
                 <div class = "form-item">
-                    <input type = "submit" class = "btn" value = "Book Now">
+                    <input type = "submit" class = "btn" value = "¡Reserva ya!">
                 </div>
             </form>
         </div>
         
         <section class = "rooms sec-width" id = "rooms">
             <div class = "title">
-                <h2>rooms</h2>
+                <h2>Habitaciones</h2>
             </div>
             <div class = "rooms-container">
                 <!-- single room -->
