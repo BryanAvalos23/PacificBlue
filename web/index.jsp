@@ -52,11 +52,17 @@
                         <h2>Login</h2>
                     </div>
                     <div class="campos-Login">
-                        <div>
-                            <input type="text" name="usuario" id="usuario" placeholder="Usuario">
+                        <div class='formulario__group'>
+                            <div class="formulario__group-input">
+                                <input type="text" name="usuario" id="usuario" placeholder="Usuario">
+                            </div>
+                            <p class="formulario__ErrorInput">El campo no puede estar vacio</p>
                         </div>
-                        <div>
-                            <input type="text" name="contra" id="contra" placeholder="Contrase�a">
+                        <div class='formulario__group'>
+                            <div class="formulario__group-input">
+                                <input type="text" name="contra" id="contra" placeholder="Contrase�a">
+                            </div>
+                            <p class="formulario__ErrorInput">El campo no puede estar vacio</p>
                         </div>
                         <div class="button-Login">
                             <input type="submit" value="Ingresar">

@@ -52,11 +52,17 @@
                         <h2>Login</h2>
                     </div>
                     <div class="campos-Login">
-                        <div>
-                            <input type="text" name="usuario" id="usuario" placeholder="Usuario">
+                        <div class='formulario__group'>
+                            <div class="formulario__group-input">
+                                <input type="text" name="usuario" id="usuario" placeholder="Usuario">
+                            </div>
+                            <p class="formulario__ErrorInput">El campo no puede estar vacio</p>
                         </div>
-                        <div>
-                            <input type="text" name="contra" id="contra" placeholder="Contraseï¿½a">
+                        <div class='formulario__group'>
+                            <div class="formulario__group-input">
+                                <input type="text" name="contra" id="contra" placeholder="Contraseï¿½a">
+                            </div>
+                            <p class="formulario__ErrorInput">El campo no puede estar vacio</p>
                         </div>
                         <div class="button-Login">
                             <input type="submit" value="Ingresar">
@@ -85,11 +91,7 @@
                         </span>
                     </div>
                     <div class = "service-content">
-<<<<<<< HEAD
                         <h2>Servicio a la habitación y desayuno buffet</h2>
-=======
-                        <h2>Servicio a la habitaciï¿½n y desayuno buffet</h2>
->>>>>>> a5471d954ae842ab875b91e14e1a74186fc6ef78
                         <p>Sabemos que un buen servicio de restaurante es algo primordial para cualquier hotel de prestigio y el nuestro no es la excepciï¿½n, con la carta mas completa de entradas, platos principales y postres asï¿½ como una zona de bar para tu diversiï¿½n.</p>
                     </div>
                 </article>
@@ -128,11 +130,7 @@
                         </span>
                     </div>
                     <div class = "service-content">
-<<<<<<< HEAD
                         <h2>Lo ultimo de tecnología en seguridad.</h2>
-=======
-                        <h2>Lo ultimo de tecnologï¿½a en seguridad.</h2>
->>>>>>> a5471d954ae842ab875b91e14e1a74186fc6ef78
                         <p>La seguridad es algo muy importante tanto como el confort del uso de ella, asï¿½ que implementamos un sistema biomï¿½trico para que nadie mas que tï¿½ y los que tu elijas al momento del registro puedan entrar a tu habitaciï¿½n de una manera sencilla y sin tarjetas o algun otra llave que pueda perderse en cualquier momento.</p>
                     </div>
                 </article>
