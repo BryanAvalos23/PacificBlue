@@ -24,8 +24,8 @@
             </div>
             
             <div class = "head-bottom flex">
-                <h2>UN LUGAR AGRADABLE Y Cï¿½MODO PARA ALOJARSE</h2>
-                <p>La cadena de hoteles Pacific Blue tiene como objetivo proporcionar el mayor confort en cualquiera de sus 10 hoteles, con galardones internacionales e insignias en atenciï¿½n a los clientes de nuestros lugares.</p>
+                <h2>UN LUGAR AGRADABLE Y CÓMODO PARA ALOJARSE</h2>
+                <p>La cadena de hoteles Pacific Blue tiene como objetivo proporcionar el mayor confort en cualquiera de sus 10 hoteles, con galardones internacionales e insignias en atención a los clientes de nuestros lugares.</p>
                 <button type = "button" class = "head-btn"><a href="#book" class="link-reserve">RESERVAR</a></button>
             </div>
         </header>
@@ -56,7 +56,7 @@
                             <input type="text" name="usuario" id="usuario" placeholder="Usuario">
                         </div>
                         <div>
-                            <input type="text" name="contra" id="contra" placeholder="Contraseï¿½a">
+                            <input type="text" name="contra" id="contra" placeholder="Contraseña">
                         </div>
                         <div class="button-Login">
                             <input type="submit" value="Ingresar">
@@ -85,8 +85,8 @@
                         </span>
                     </div>
                     <div class = "service-content">
-                        <h2>Servicio a la habitaciï¿½n y desayuno buffet</h2>
-                        <p>Sabemos que un buen servicio de restaurante es algo primordial para cualquier hotel de prestigio y el nuestro no es la excepciï¿½n, con la carta mas completa de entradas, platos principales y postres asï¿½ como una zona de bar para tu diversiï¿½n.</p>
+                        <h2>Servicio a la habitación y desayuno buffet</h2>
+                        <p>Sabemos que un buen servicio de restaurante es algo primordial para cualquier hotel de prestigio y el nuestro no es la excepción, con la carta mas completa de entradas, platos principales y postres así como una zona de bar para tu diversión.</p>
                     </div>
                 </article>
                 <!-- end of single service -->
@@ -99,7 +99,7 @@
                     </div>
                     <div class = "service-content">
                         <h2>Piscina de interior y exterior climatizada.</h2>
-                        <p>No hay nada mejor para relajarse que un tiempo para poder nadar o simplemente tomar el sol junto a una piscina amplia lista para darse un chapuzï¿½n, si no es de tu agrado nadar bajo el sol o el clima te ofrecemos una piscina interior climatizada lista para tu uso.</p>
+                        <p>No hay nada mejor para relajarse que un tiempo para poder nadar o simplemente tomar el sol junto a una piscina amplia lista para darse un chapuzón, si no es de tu agrado nadar bajo el sol o el clima te ofrecemos una piscina interior climatizada lista para tu uso.</p>
                     </div>
                 </article>
                 <!-- end of single service -->
@@ -112,7 +112,7 @@
                     </div>
                     <div class = "service-content">
                         <h2>Limpieza de habitaciones diaria</h2>
-                        <p>La limpieza es algo fundamental en nuestros establecimientos, tus habitaciones son aseadas de la mejor manera a diario respetando tu privacidad y siempre y cuando sea de tu elecciï¿½n que sea asï¿½, todas las habitaciones son completamente sanitizadas despues de que el usuario deja su uso.</p>
+                        <p>La limpieza es algo fundamental en nuestros establecimientos, tus habitaciones son aseadas de la mejor manera a diario respetando tu privacidad y siempre y cuando sea de tu elección que sea así, todas las habitaciones son completamente sanitizadas despues de que el usuario deja su uso.</p>
                     </div>
                 </article>
                 <!-- end of single service -->
@@ -124,8 +124,8 @@
                         </span>
                     </div>
                     <div class = "service-content">
-                        <h2>Lo ultimo de tecnologï¿½a en seguridad.</h2>
-                        <p>La seguridad es algo muy importante tanto como el confort del uso de ella, asï¿½ que implementamos un sistema biomï¿½trico para que nadie mas que tï¿½ y los que tu elijas al momento del registro puedan entrar a tu habitaciï¿½n de una manera sencilla y sin tarjetas o algun otra llave que pueda perderse en cualquier momento.</p>
+                        <h2>Lo ultimo de tecnología en seguridad.</h2>
+                        <p>La seguridad es algo muy importante tanto como el confort del uso de ella, así que implementamos un sistema biométrico para que nadie mas que tú y los que tu elijas al momento del registro puedan entrar a tu habitación de una manera sencilla y sin tarjetas o algun otra llave que pueda perderse en cualquier momento.</p>
                     </div>
                 </article>
                 <!-- end of single service -->
@@ -155,7 +155,7 @@
                     <input type = "number" min = "1" value = "1" id = "rooms">
                 </div> -->
                 <div class = "form-item">
-                    <label for = "rooms">Categoria de habitaciï¿½n: </label>
+                    <label for = "rooms">Categoria de habitación: </label>
                     <select name="Categoria-Habitacion" id="Categoria-Habitacion" class="Categoria-Habitacion" >
                         <option value="Seleccionar" class="Category">Seleccionar</option>
                         <option value="Individual" class="Category">Individual</option>
@@ -169,7 +169,7 @@
                 </div>
 
                 <div class = "form-item">
-                    <input type = "submit" class = "btn" value = "ï¿½Reserva ya!">
+                    <input type = "submit" class = "btn" value = "¡Reserva ya!">
                 </div>
             </form>
         </div>
