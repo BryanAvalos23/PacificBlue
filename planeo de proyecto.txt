@@ -1,11 +1,10 @@
 
 lOGIN
 
--hacer el formulario de login
--ajustar boton login para que salga el login flotante 
--hacer diseño del formulario login
+-hacer el formulario de login   (listo)
+-ajustar boton login para que salga el login flotante(se agrego login de otra manera)
+-hacer diseño del formulario login (listo)
 -programar validaciones de si se ha escrito algo en algun input del formulario de login con java
-
 
 REGISTRO
 
