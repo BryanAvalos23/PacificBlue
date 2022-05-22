@@ -361,7 +361,7 @@
         <section class = "customers" id = "customers">
             <div class = "sec-width">
                 <div class = "title">
-                    <h2>customers</h2>
+                    <h2>Opiniones</h2>
                 </div>
                 <div class = "customers-container">
                     <!-- single customer -->
@@ -373,10 +373,10 @@
                             <span><i class = "fas fa-star"></i></span>
                             <span><i class = "far fa-star"></i></span>
                         </div>
-                        <h3>We Loved it</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat beatae veritatis provident eveniet praesentium veniam cum iusto distinctio esse, vero est autem, eius optio cupiditate?</p>
+                        <h3>¡Nos encantó!</h3>
+                        <p>Nada mejor que la King Suite para pasar una luna de miel de ensueño, totalmente recomendado.</p>
                         <img src = "img/cus1.jpg" alt = "customer image">
-                        <span>Customer Name, Country</span>
+                        <span>Steve Darrel, Colorado, USA</span>
                     </div>
                     <!-- end of single customer -->
                     <!-- single customer -->
@@ -388,10 +388,10 @@
                             <span><i class = "fas fa-star"></i></span>
                             <span><i class = "far fa-star"></i></span>
                         </div>
-                        <h3>Comfortable Living</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat beatae veritatis provident eveniet praesentium veniam cum iusto distinctio esse, vero est autem, eius optio cupiditate?</p>
+                        <h3>Comodidad y economía.</h3>
+                        <p>Es el balance perfecto para los que necesitamos salir de la rutina sin sacrificar nuestro bolsillo, muy buen servicio.</p>
                         <img src = "img/cus2.jpg" alt = "customer image">
-                        <span>Customer Name, Country</span>
+                        <span>Jena Paul, Dallas, Texas</span>
                     </div>
                     <!-- end of single customer -->
                     <!-- single customer -->
@@ -403,10 +403,10 @@
                             <span><i class = "fas fa-star"></i></span>
                             <span><i class = "far fa-star"></i></span>
                         </div>
-                        <h3>Nice Place</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat beatae veritatis provident eveniet praesentium veniam cum iusto distinctio esse, vero est autem, eius optio cupiditate?</p>
+                        <h3>Nada mejor para pasar vacaciones </h3>
+                        <p>La playa es de lo mejor y la piscina siempre está a la temperatura correcta, sin mencionar la comida del buffet, volveré lo mas pronto posible.</p>
                         <img src = "img/cus3.jpg" alt = "customer image">
-                        <span>Customer Name, Country</span>
+                        <span>Johan Gray, Maryland, Virginia </span>
                     </div>
                     <!-- end of single customer -->
                 </div>
