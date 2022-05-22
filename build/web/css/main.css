@@ -180,6 +180,10 @@ img{
     background: var(--yellow);
     color: var(--white);
 }
+.sign-up a{
+    text-decoration: none;
+    color: var(--white);
+}
 @media(max-width: 400px){
     .sidenav{
         width: 100vw;
