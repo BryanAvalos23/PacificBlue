@@ -199,7 +199,7 @@
                         <p class = "rate">
                             <span>$49.00 /</span> Por noche
                         </p>
-                        <button type = "btnResIndiv" class = "btn">Reserva ahora</button>
+                        <button type = "btnResIndiv" class = "btn"><a href="Vistas/reserva.jsp">Reserva ahora</a></button>
                     </div>
                 </article>
                 <!-- end of single room -->
@@ -229,7 +229,7 @@
                         <p class = "rate">
                             <span>$69.00 /</span> Por noche
                         </p>
-                        <button type = "btnResDob" class = "btn">Reserva ya</button>
+                        <button type = "btnResDob" class = "btn"><a href="Vistas/reserva.jsp">Reserva ahora</a></button>
                     </div>
                 </article>
                 <!-- end of single room -->
@@ -259,7 +259,7 @@
                         <p class = "rate">
                             <span>$99.00 /</span> Por noche
                         </p>
-                        <button type = "btnResTri" class = "btn">Reserva ya</button>
+                        <button type = "btnResTri" class = "btn"><a href="Vistas/reserva.jsp">Reserva ahora</a></button>
                     </div>
                 </article>
                 
@@ -288,7 +288,7 @@
                         <p class = "rate">
                             <span>$119.00 /</span> Por noche
                         </p>
-                        <button type = "btnResQuad" class = "btn">Reserva ya</button>
+                        <button type = "btnResQuad" class = "btn"><a href="Vistas/reserva.jsp">Reserva ahora</a></button>
                     </div>
                 </article>
                  <article class = "room">
