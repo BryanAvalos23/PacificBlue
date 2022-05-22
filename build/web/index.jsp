@@ -26,7 +26,7 @@
             <div class = "head-bottom flex">
                 <h2>UN LUGAR AGRADABLE Y C�MODO PARA ALOJARSE</h2>
                 <p>La cadena de hoteles Pacific Blue tiene como objetivo proporcionar el mayor confort en cualquiera de sus 10 hoteles, con galardones internacionales e insignias en atenci�n a los clientes de nuestros lugares.</p>
-                <button type = "button" class = "head-btn"><a href="#book" class="link-reserve">RESERVAR</a></button>
+                <button type = "button" class = "head-btn"><a href="#rooms" class="link-reserve">RESERVAR</a></button>
             </div>
         </header>
         <!-- end of header -->
