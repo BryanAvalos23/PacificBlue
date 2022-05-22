@@ -3,7 +3,7 @@
 <html lang="es">
     <head>
         <meta charset="utf-8">
-        <title>HOTEL GP</title>
+        <title>HOTEL Pacific Blue</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
         <link rel = "icon" href = "img/logo.png" type = "image/png">
@@ -38,10 +38,10 @@
             </span>
             
             <ul class = "navbar">
-                <li><a href = "#header">home</a></li>
-                <li><a href = "#services">services</a></li>
-                <li><a href = "#rooms">rooms</a></li>
-                <li><a href = "#customers">customers</a></li>
+                <li><a href = "#header">Inicio</a></li>
+                <li><a href = "#services">Servicios</a></li>
+                <li><a href = "#rooms">Habitaciones</a></li>
+                <li><a href = "#customers">Opiniones</a></li>
             </ul>
             <button class = "btn sign-up" id="sign-up"><a href="Vistas/registro.jsp">sign up</a></button>
             <button class = "btn log-in" id="buttonlog">log in</button>
