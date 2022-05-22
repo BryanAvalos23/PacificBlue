@@ -138,7 +138,7 @@
             </div>
         </section>
         
-        <div class = "book" id="book">
+<!--        <div class = "book" id="book">
             <form class = "book-form">
                 <div class = "form-item">
                     <label for = "checkin-date">Fecha de entrada: </label>
@@ -148,18 +148,6 @@
                     <label for = "checkout-date">Fecha de salida: </label>
                     <input type = "date" id = "chekout-date">
                 </div>
-                <!-- <div class = "form-item">
-                    <label for = "adult">Adults: </label>
-                    <input type = "number" min = "1" value = "1" id = "adult">
-                </div> -->
-                <!-- <div class = "form-item">
-                    <label for = "children">Children: </label>
-                    <input type = "number" min = "1" value = "1" id = "children">
-                </div> -->
-                <!-- <div class = "form-item">
-                    <label for = "rooms">Rooms: </label>
-                    <input type = "number" min = "1" value = "1" id = "rooms">
-                </div> -->
                 <div class = "form-item">
                     <label for = "rooms">Categoria de habitaci�n: </label>
                     <select name="Categoria-Habitacion" id="Categoria-Habitacion" class="Categoria-Habitacion" >
@@ -170,7 +158,7 @@
                         <option value="Quad" class="Category">Quad</option>
                         <option value="Queen" class="Category">Queen</option>
                         <option value="KIng" class="Category">King</option>
-
+                        
                     </select>
                 </div>
 
@@ -178,7 +166,7 @@
                     <input type = "submit" class = "btn" value = "�Reserva ya!">
                 </div>
             </form>
-        </div>
+        </div>-->
         
         <section class = "rooms sec-width" id = "rooms">
             <div class = "title">
