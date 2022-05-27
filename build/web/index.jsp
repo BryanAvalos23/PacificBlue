@@ -316,7 +316,7 @@
                         <p class = "rate">
                             <span>$149.00 /</span> Por noche
                         </p>
-                        <button type = "btnResQueen" class = "btn">Reserva ya</button>
+                        <button type = "btnResQueen" class = "btn">RESERVAR AHORA</button>
                     </div>
                 </article>
                  <article class = "room">
@@ -344,7 +344,7 @@
                         <p class = "rate">
                             <span>$199.00 /</span> Por noche
                         </p>
-                        <button type = "btnResKing" class = "btn">Reserva ya</button>
+                        <button type = "btnResKing" class = "btn">RESERVAR AHORA</button>
                     </div>
                 </article>
                 <!-- end of single room -->
