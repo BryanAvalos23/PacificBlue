@@ -1,0 +1,120 @@
+<?xml version='1.0' encoding='UTF-8'?><!-- Published by JAX-WS RI (http://jax-ws.java.net). RI's version is Metro/2.3.2-b608 (trunk-7979; 2015-01-21T12:50:19+0000) JAXWS-RI/2.2.11-b150120.1832 JAXWS-API/2.2.12 JAXB-RI/2.2.12-b141219.1637 JAXB-API/2.2.13-b141020.1521 svn-revision#unknown. --><xs:schema xmlns:tns="http://WebService/" xmlns:xs="http://www.w3.org/2001/XMLSchema" version="1.0" targetNamespace="http://WebService/">
+
+<xs:element name="AgregarCliente" type="tns:AgregarCliente"/>
+
+<xs:element name="AgregarClienteResponse" type="tns:AgregarClienteResponse"/>
+
+<xs:element name="Buscar_Clientes" type="tns:Buscar_Clientes"/>
+
+<xs:element name="Buscar_ClientesResponse" type="tns:Buscar_ClientesResponse"/>
+
+<xs:element name="CrearFactura" type="tns:CrearFactura"/>
+
+<xs:element name="CrearFacturaResponse" type="tns:CrearFacturaResponse"/>
+
+<xs:element name="ValidarCliente" type="tns:ValidarCliente"/>
+
+<xs:element name="ValidarClienteResponse" type="tns:ValidarClienteResponse"/>
+
+<xs:element name="validarUsuario" type="tns:validarUsuario"/>
+
+<xs:element name="validarUsuarioResponse" type="tns:validarUsuarioResponse"/>
+
+<xs:complexType name="AgregarCliente">
+<xs:sequence>
+<xs:element name="Nombre" type="xs:string" minOccurs="0"/>
+<xs:element name="Apellidos" type="xs:string" minOccurs="0"/>
+<xs:element name="Dui" type="xs:string" minOccurs="0"/>
+<xs:element name="Direccion" type="xs:string" minOccurs="0"/>
+<xs:element name="telefono" type="xs:string" minOccurs="0"/>
+<xs:element name="Email" type="xs:string" minOccurs="0"/>
+<xs:element name="UserName" type="xs:string" minOccurs="0"/>
+<xs:element name="Patron" type="xs:string" minOccurs="0"/>
+<xs:element name="contrasena" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="AgregarClienteResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:int"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="Buscar_Clientes">
+<xs:sequence>
+<xs:element name="Dui" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="Buscar_ClientesResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:cliente" minOccurs="0" maxOccurs="unbounded"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="cliente">
+<xs:sequence>
+<xs:element name="apellidos" type="xs:string" minOccurs="0"/>
+<xs:element name="contrasena" type="xs:string" minOccurs="0"/>
+<xs:element name="diasHabitacion" type="xs:int"/>
+<xs:element name="direccion" type="xs:string" minOccurs="0"/>
+<xs:element name="dui" type="xs:string" minOccurs="0"/>
+<xs:element name="email" type="xs:string" minOccurs="0"/>
+<xs:element name="empContrasena" type="xs:string" minOccurs="0"/>
+<xs:element name="empleado" type="xs:string" minOccurs="0"/>
+<xs:element name="error" type="xs:string" minOccurs="0"/>
+<xs:element name="estado" type="xs:int"/>
+<xs:element name="idCliente" type="xs:int"/>
+<xs:element name="nombre" type="xs:string" minOccurs="0"/>
+<xs:element name="patron" type="xs:string" minOccurs="0"/>
+<xs:element name="precioHabitacion" type="xs:double"/>
+<xs:element name="telefono" type="xs:string" minOccurs="0"/>
+<xs:element name="total" type="xs:double"/>
+<xs:element name="userName" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="CrearFactura">
+<xs:sequence>
+<xs:element name="Nombre" type="xs:string" minOccurs="0"/>
+<xs:element name="Apellidos" type="xs:string" minOccurs="0"/>
+<xs:element name="nombreHabitacion" type="xs:string" minOccurs="0"/>
+<xs:element name="precioHabitacion" type="xs:double"/>
+<xs:element name="diasHabitacion" type="xs:int"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="CrearFacturaResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:int"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="validarUsuario">
+<xs:sequence>
+<xs:element name="USUARIO" type="xs:string" minOccurs="0"/>
+<xs:element name="CONTRASENA" type="xs:string" minOccurs="0"/>
+<xs:element name="PATRON" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="validarUsuarioResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:cliente" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="ValidarCliente">
+<xs:sequence>
+<xs:element name="Usuario" type="xs:string" minOccurs="0"/>
+<xs:element name="Contrasena" type="xs:string" minOccurs="0"/>
+<xs:element name="PATRON" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="ValidarClienteResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:cliente" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+</xs:schema>
