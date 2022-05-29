@@ -721,20 +721,24 @@ img{
     visibility: visible;
     transition: all 0.4s ease;
 }
-.campos-Login input{
+.formulario__input{
     width: 15vw;
     height: 5vh;
     margin: 3vh;
     border: none;
     background-color: transparent;
-    border-bottom: 2px solid var(--yellow);
+    /* border-bottom: 2px solid var(--yellow); */
     padding: 5px 10px;
     outline: 0;
     color: var(--white);
     font-size: 2em;
+    transition: var(--transition);
 }
-.campos-Login input::placeholder{
+.formulario__input::placeholder{
     color: var(--white);
+}
+.color_border{
+    border-bottom: 2px solid var(--yellow);
 }
 .campos-Login input:focus{
     border-color: #329fe7;
@@ -747,7 +751,7 @@ img{
     height: 6vh;
     border-radius: 10px;
     border: 0;
-    background-color: rgba(255, 255, 255, .5);
+    background-color: #83bceb;
     font-size: 2em;
     color: var(--white);
     cursor: pointer;
@@ -755,32 +759,40 @@ img{
 }
 .button-Login input:hover{
     width: 14vw;
-    height: 7vh;
+    height: 5vh;
     transition: var(--transition);
 }
 @media screen and (max-width: 1000px){
-    .campos-Login input{
+    .formulario__input{
         width: 20vw;
         height: 5vh;
         margin: 3vh;
         border: none;
         background-color: transparent;
-        border-bottom: 2px solid var(--yellow);
+        /* border-bottom: 2px solid var(--yellow); */
         padding: 5px 10px;
         outline: 0;
         color: var(--white);
         font-size: 2em;
         transition: var(--transition);
     }
+    .color_border{
+        border-bottom: 2px solid var(--yellow);
+    }
     .button-Login input{
-        width: 16vw;
+        width: 14vw;
         height: 6vh;
         border-radius: 10px;
         border: 0;
-        background-color: rgba(255, 255, 255, .5);
+        background-color: #83bceb;
         font-size: 2em;
         color: var(--white);
         cursor: pointer;
+        transition: var(--transition);
+    }
+    .button-Login input:hover{
+        width: 18vw;
+        height: 5vh;
         transition: var(--transition);
     }
 }
@@ -791,18 +803,25 @@ img{
     position: relative;
 }
 .formulario__ErrorInput{
-    font-size: 1.3em;
+    font-size: 1.2em;
     margin-bottom: 0;
     display: none;
 }
 .formulario__ErrorInput-active{
     display: block;
+    color: #bb2929;
 }
-.validacion-Incorrecto{
+.validacion__incorrecto{
     border-bottom: 2px solid #bb2929;
 }
+.validacion__incorrecto::placeholder{
+    color: var(--white);
+}
+.validacion__correcto{
+    border-bottom: 2px solid #1ed12d;
+}
 
-/*Reserva*/
+/* Reserva */
 .head-top span a{
     color: var(--dark);
 }

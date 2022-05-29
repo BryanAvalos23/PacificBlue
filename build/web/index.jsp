@@ -47,22 +47,22 @@
             <button class = "btn log-in" id="buttonlog">log in</button>
             
             <div class="container-FormLog">
-                <form action="" id="formLogin"  class="formLogin">
+                <form action="" id="formLogin"  class="formLogin" method="post">
                     <div class="login-Title">
                         <h2>Login</h2>
                     </div>
                     <div class="campos-Login">
-                        <div class='formulario__group'>
-                            <div class="formulario__group-input">
-                                <input type="text" name="usuario" id="usuario" placeholder="Usuario">
+                        <div class="formulario__grupo" id="grupo__usuario">
+                            <div class="formulario__grupo-input">
+                                <input type="text" class="formulario__input color_border" name="usuario" id="usuario" placeholder="Usuario" autocomplete="off">
                             </div>
-                            <p class="formulario__ErrorInput">El campo no puede estar vacio</p>
+                            <p class="formulario__ErrorInput">Usuario no valido revise caracteres especiales</p>
                         </div>
-                        <div class='formulario__group'>
-                            <div class="formulario__group-input">
-                                <input type="text" name="contra" id="contra" placeholder="Contraseña">
+                        <div class="formulario__grupo" id="grupo__contra">
+                            <div class="formulario__grupo-input">
+                                <input type="password" class="formulario__input color_border" name="contra" id="contra" placeholder="Contraseña" autocomplete="off">
                             </div>
-                            <p class="formulario__ErrorInput">El campo no puede estar vacio</p>
+                            <p class="formulario__ErrorInput">el campo esta vacio.</p>
                         </div>
                         <div class="button-Login">
                             <input type="submit" value="Ingresar">
@@ -138,35 +138,7 @@
             </div>
         </section>
         
-<!--        <div class = "book" id="book">
-            <form class = "book-form">
-                <div class = "form-item">
-                    <label for = "checkin-date">Fecha de entrada: </label>
-                    <input type = "date" id = "chekin-date">
-                </div>
-                <div class = "form-item">
-                    <label for = "checkout-date">Fecha de salida: </label>
-                    <input type = "date" id = "chekout-date">
-                </div>
-                <div class = "form-item">
-                    <label for = "rooms">Categoria de habitaciï¿½n: </label>
-                    <select name="Categoria-Habitacion" id="Categoria-Habitacion" class="Categoria-Habitacion" >
-                        <option value="Seleccionar" class="Category">Seleccionar</option>
-                        <option value="Individual" class="Category">Individual</option>
-                        <option value="Doble" class="Category">Doble</option>
-                        <option value="Triple" class="Category">Triple</option>
-                        <option value="Quad" class="Category">Quad</option>
-                        <option value="Queen" class="Category">Queen</option>
-                        <option value="KIng" class="Category">King</option>
-                        
-                    </select>
-                </div>
 
-                <div class = "form-item">
-                    <input type = "submit" class = "btn" value = "ï¿½Reserva ya!">
-                </div>
-            </form>
-        </div>-->
         
         <section class = "rooms sec-width" id = "rooms">
             <div class = "title">

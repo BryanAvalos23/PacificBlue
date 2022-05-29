@@ -47,22 +47,22 @@
             <button class = "btn log-in" id="buttonlog">log in</button>
             
             <div class="container-FormLog">
-                <form action="" id="formLogin"  class="formLogin">
+                <form action="" id="formLogin"  class="formLogin" method="post">
                     <div class="login-Title">
                         <h2>Login</h2>
                     </div>
                     <div class="campos-Login">
-                        <div class='formulario__group'>
-                            <div class="formulario__group-input">
-                                <input type="text" name="usuario" id="usuario" placeholder="Usuario">
+                        <div class="formulario__grupo" id="grupo__usuario">
+                            <div class="formulario__grupo-input">
+                                <input type="text" class="formulario__input color_border" name="usuario" id="usuario" placeholder="Usuario" autocomplete="off">
                             </div>
-                            <p class="formulario__ErrorInput">El campo no puede estar vacio</p>
+                            <p class="formulario__ErrorInput">Usuario no valido revise caracteres especiales</p>
                         </div>
-                        <div class='formulario__group'>
-                            <div class="formulario__group-input">
-                                <input type="text" name="contra" id="contra" placeholder="Contraseña">
+                        <div class="formulario__grupo" id="grupo__contra">
+                            <div class="formulario__grupo-input">
+                                <input type="password" class="formulario__input color_border" name="contra" id="contra" placeholder="Contraseña" autocomplete="off">
                             </div>
-                            <p class="formulario__ErrorInput">El campo no puede estar vacio</p>
+                            <p class="formulario__ErrorInput">el campo esta vacio.</p>
                         </div>
                         <div class="button-Login">
                             <input type="submit" value="Ingresar">
