@@ -8,7 +8,7 @@
         <link href="../css/main.css" rel="stylesheet">
     </head>
     <body>
-        <header class="header-Registro">
+        <header class="headerRegistro">
             <div class="site-name head-top">
                 <span><a href="../index.jsp">PACIFIC BLUE</a></span>
             </div>
@@ -23,7 +23,7 @@
                     <input type = "date" id = "chekout-date">
                 </div>
                 <div class = "form-item">
-                    <label for = "rooms">Categoria de habitaciï¿½n: </label>
+                    <label for = "rooms">Categoria de habitacion: </label>
                     <select name="Categoria-Habitacion" id="Categoria-Habitacion" class="Categoria-Habitacion" >
                         <option value="Seleccionar" class="Category">Seleccionar</option>
                         <option value="Individual" class="Category">Individual</option>
