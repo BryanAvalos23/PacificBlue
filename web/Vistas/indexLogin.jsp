@@ -43,6 +43,8 @@
                 <li><a href = "#rooms">Habitaciones</a></li>
                 <li><a href = "#customers">Opiniones</a></li>
             </ul>
+            
+            <button class = "btn sign-up" id="sign-up"><a href="../index.jsp">cerrar sesion</a></button>
         </div>
         <!-- end of side navbar -->
         
