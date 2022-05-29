@@ -1,4 +1,3 @@
-<%@page import="Modelo.UserCliente"%>
 <%@page contentType="text/html" pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
 <html lang="es">
