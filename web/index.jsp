@@ -44,7 +44,7 @@
                 <li><a href = "#customers">Opiniones</a></li>
             </ul>
             <button class = "btn sign-up" id="sign-up"><a href="Vistas/registro.jsp">sign up</a></button>
-            <button class = "btn log-in" value="Ingresar"id="buttonlog">log in</button>
+            <button class = "btn log-in" name="accion"value="Ingresar"id="buttonlog">log in</button>
             
             <div class="container-FormLog">
                 <form action="" id="formLogin"  class="formLogin" method="post">
