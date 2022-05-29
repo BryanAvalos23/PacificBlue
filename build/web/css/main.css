@@ -781,3 +781,8 @@ img{
 .validacion-Incorrecto{
     border-bottom: 2px solid #bb2929;
 }
+
+/*Reserva*/
+.head-top span a{
+    color: var(--dark);
+}
