@@ -316,7 +316,7 @@
                         <p class = "rate">
                             <span>$199.00 /</span> Por noche
                         </p>
-                        <button type = "btnResKing" class = "btn"><a href="Vistas/reserva.jsp">Reserva</a></button>
+                        <button type = "btnResKing" class = "btn"><a href="Vistas/reserva.jsp">Reserva ahora</a></button>
                     </div>
                 </article>
                 <!-- end of single room -->
@@ -357,7 +357,7 @@
                         <h3>Comodidad y economía.</h3>
                         <p>Es el balance perfecto para los que necesitamos salir de la rutina sin sacrificar nuestro bolsillo, muy buen servicio.</p>
                         <img src = "img/cus2.jpg" alt = "customer image">
-                        <span>David gilberto, San Salvador, El Salvador</span>
+                        <span>Rebeca Orellana, San Salvador, El Salvador</span>
                     </div>
                     <!-- end of single customer -->
                     <!-- single customer -->
