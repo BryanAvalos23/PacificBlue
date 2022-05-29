@@ -316,7 +316,7 @@
                         <p class = "rate">
                             <span>$199.00 /</span> Por noche
                         </p>
-                        <button type = "btnResKing" class = "btn"><a href="Vistas/reserva.jsp">Reserva </button>
+                        <button type = "btnResKing" class = "btn"><a href="Vistas/reserva.jsp">Reserva</a></button>
                     </div>
                 </article>
                 <!-- end of single room -->
