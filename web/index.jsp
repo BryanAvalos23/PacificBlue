@@ -288,7 +288,7 @@
                         <p class = "rate">
                             <span>$149.00 /</span> Por noche
                         </p>
-                        <button type = "btnResQueen" class = "btn">RESERVAR AHORA</button>
+                        <button type = "btnResQueen" class = "btn"><a href="Vistas/reserva.jsp">Reserva ahora</a></button>
                     </div>
                 </article>
                  <article class = "room">
@@ -316,7 +316,7 @@
                         <p class = "rate">
                             <span>$199.00 /</span> Por noche
                         </p>
-                        <button type = "btnResKing" class = "btn">RESERVAR AHORA</button>
+                        <button type = "btnResKing" class = "btn"<a href="Vistas/reserva.jsp">Reserva ahora</a></button>
                     </div>
                 </article>
                 <!-- end of single room -->
@@ -342,7 +342,7 @@
                         <h3>¡Nos encantó!</h3>
                         <p>Nada mejor que la King Suite para pasar una luna de miel de ensueño, totalmente recomendado.</p>
                         <img src = "img/cus1.jpg" alt = "customer image">
-                        <span>Steve Darrel, Colorado, USA</span>
+                        <span>Juan Perez, Jalisco, México</span>
                     </div>
                     <!-- end of single customer -->
                     <!-- single customer -->
@@ -357,7 +357,7 @@
                         <h3>Comodidad y economía.</h3>
                         <p>Es el balance perfecto para los que necesitamos salir de la rutina sin sacrificar nuestro bolsillo, muy buen servicio.</p>
                         <img src = "img/cus2.jpg" alt = "customer image">
-                        <span>Jena Paul, Dallas, Texas</span>
+                        <span>David gilberto, San Salvador, El Salvador</span>
                     </div>
                     <!-- end of single customer -->
                     <!-- single customer -->
@@ -372,7 +372,7 @@
                         <h3>Nada mejor para pasar vacaciones </h3>
                         <p>La playa es de lo mejor y la piscina siempre está a la temperatura correcta, sin mencionar la comida del buffet, volveré lo mas pronto posible.</p>
                         <img src = "img/cus3.jpg" alt = "customer image">
-                        <span>Johan Gray, Maryland, Virginia </span>
+                        <span>Gabriel Jimenez, Buenos Aires, Argentina </span>
                     </div>
                     <!-- end of single customer -->
                 </div>
@@ -407,7 +407,7 @@
                             <i class = "fas fa-map-marker-alt"></i>
                         </span>
                         <span>
-                            203 Fake St.Mountain View, San Francisco, California, USA
+                            La Libertad, municipio de Tamanique a 7,2 km de El Malecón (Puerto de La Libertad).
                         </span>
                     </div>
                     <div class = "contact-item">
@@ -415,7 +415,7 @@
                             <i class = "fas fa-phone-alt"></i>
                         </span>
                         <span>
-                            +84545 37534 48
+                            +503 88779988
                         </span>
                     </div>
                     <div class = "contact-item">
