@@ -4,6 +4,12 @@
 <xsd:import namespace="http://WebService/" schemaLocation="http://localhost:8080/wsPacificBlue/Servicios?xsd=1"/>
 </xsd:schema>
 </types>
+<message name="validarUsuario">
+<part name="parameters" element="tns:validarUsuario"/>
+</message>
+<message name="validarUsuarioResponse">
+<part name="parameters" element="tns:validarUsuarioResponse"/>
+</message>
 <message name="Buscar_Clientes">
 <part name="parameters" element="tns:Buscar_Clientes"/>
 </message>
@@ -16,25 +22,23 @@
 <message name="CrearFacturaResponse">
 <part name="parameters" element="tns:CrearFacturaResponse"/>
 </message>
-<message name="ValidarCliente">
-<part name="parameters" element="tns:ValidarCliente"/>
-</message>
-<message name="ValidarClienteResponse">
-<part name="parameters" element="tns:ValidarClienteResponse"/>
-</message>
 <message name="AgregarCliente">
 <part name="parameters" element="tns:AgregarCliente"/>
 </message>
 <message name="AgregarClienteResponse">
 <part name="parameters" element="tns:AgregarClienteResponse"/>
 </message>
-<message name="validarUsuario">
-<part name="parameters" element="tns:validarUsuario"/>
+<message name="ValidarCliente">
+<part name="parameters" element="tns:ValidarCliente"/>
 </message>
-<message name="validarUsuarioResponse">
-<part name="parameters" element="tns:validarUsuarioResponse"/>
+<message name="ValidarClienteResponse">
+<part name="parameters" element="tns:ValidarClienteResponse"/>
 </message>
 <portType name="Servicios">
+<operation name="validarUsuario">
+<input wsam:Action="http://WebService/Servicios/validarUsuarioRequest" message="tns:validarUsuario"/>
+<output wsam:Action="http://WebService/Servicios/validarUsuarioResponse" message="tns:validarUsuarioResponse"/>
+</operation>
 <operation name="Buscar_Clientes">
 <input wsam:Action="http://WebService/Servicios/Buscar_ClientesRequest" message="tns:Buscar_Clientes"/>
 <output wsam:Action="http://WebService/Servicios/Buscar_ClientesResponse" message="tns:Buscar_ClientesResponse"/>
@@ -43,21 +47,26 @@
 <input wsam:Action="http://WebService/Servicios/CrearFacturaRequest" message="tns:CrearFactura"/>
 <output wsam:Action="http://WebService/Servicios/CrearFacturaResponse" message="tns:CrearFacturaResponse"/>
 </operation>
-<operation name="ValidarCliente">
-<input wsam:Action="http://WebService/Servicios/ValidarClienteRequest" message="tns:ValidarCliente"/>
-<output wsam:Action="http://WebService/Servicios/ValidarClienteResponse" message="tns:ValidarClienteResponse"/>
-</operation>
 <operation name="AgregarCliente">
 <input wsam:Action="http://WebService/Servicios/AgregarClienteRequest" message="tns:AgregarCliente"/>
 <output wsam:Action="http://WebService/Servicios/AgregarClienteResponse" message="tns:AgregarClienteResponse"/>
 </operation>
-<operation name="validarUsuario">
-<input wsam:Action="http://WebService/Servicios/validarUsuarioRequest" message="tns:validarUsuario"/>
-<output wsam:Action="http://WebService/Servicios/validarUsuarioResponse" message="tns:validarUsuarioResponse"/>
+<operation name="ValidarCliente">
+<input wsam:Action="http://WebService/Servicios/ValidarClienteRequest" message="tns:ValidarCliente"/>
+<output wsam:Action="http://WebService/Servicios/ValidarClienteResponse" message="tns:ValidarClienteResponse"/>
 </operation>
 </portType>
 <binding name="ServiciosPortBinding" type="tns:Servicios">
 <soap:binding transport="http://schemas.xmlsoap.org/soap/http" style="document"/>
+<operation name="validarUsuario">
+<soap:operation soapAction=""/>
+<input>
+<soap:body use="literal"/>
+</input>
+<output>
+<soap:body use="literal"/>
+</output>
+</operation>
 <operation name="Buscar_Clientes">
 <soap:operation soapAction=""/>
 <input>
@@ -76,15 +85,6 @@
 <soap:body use="literal"/>
 </output>
 </operation>
-<operation name="ValidarCliente">
-<soap:operation soapAction=""/>
-<input>
-<soap:body use="literal"/>
-</input>
-<output>
-<soap:body use="literal"/>
-</output>
-</operation>
 <operation name="AgregarCliente">
 <soap:operation soapAction=""/>
 <input>
@@ -94,7 +94,7 @@
 <soap:body use="literal"/>
 </output>
 </operation>
-<operation name="validarUsuario">
+<operation name="ValidarCliente">
 <soap:operation soapAction=""/>
 <input>
 <soap:body use="literal"/>
