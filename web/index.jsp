@@ -1,3 +1,4 @@
+<%@page import="Modelo.UserCliente"%>
 <%@page contentType="text/html" pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
 <html lang="es">
@@ -54,23 +55,26 @@
                     <div class="campos-Login">
                         <div class="formulario__grupo" id="grupo__usuario">
                             <div class="formulario__grupo-input">
-                                <input type="text" class="formulario__input color_border" name="usuario" id="usuario" placeholder="Usuario" autocomplete="off">
+                                <input type="text" class="formulario__input color_border" name="usuario"  placeholder="Usuario" autocomplete="off">
                             </div>
                             <p class="formulario__ErrorInput">Usuario no valido revise caracteres especiales</p>
                         </div>
                         <div class="formulario__grupo" id="grupo__contra">
                             <div class="formulario__grupo-input">
-                                <input type="password" class="formulario__input color_border" name="contra" id="contra" placeholder="Contraseña" autocomplete="off">
+                                <input type="password" name="contra"  placeholder="Contraseña" autocomplete="off">
                             </div>
                             <p class="formulario__ErrorInput">el campo esta vacio.</p>
                         </div>
                         <div class="button-Login">
-                            <input type="submit" value="Ingresar">
+                           <input class="btn log-in" type="submit" name="accion" value="Ingresar">
                         </div>
                     </div>
+                   
                 </form>
             </div>
         </div>
+                       
+                                
         <!-- end of side navbar -->
         
         <!-- fullscreen modal -->
