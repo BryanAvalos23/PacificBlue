@@ -555,6 +555,26 @@ img{
 .header-Registro{
     padding: 25px;
 }
+
+.headerRegistro{
+    padding: 25px;
+    background-color: #6666ff;
+}
+
+.headerRegistro a{
+    color: #252525;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.headerRegistro span{
+    color:#252525;
+}
+
+.headerRegistro a:hover{
+    color: var(--yellow);
+}
+
 .header-Registro span{
     color: var(--white);
 }
