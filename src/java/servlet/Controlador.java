@@ -7,7 +7,7 @@
  */
 package servlet;
 
-import Modelo.UserCliente;
+
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.ArrayList;
@@ -45,6 +45,7 @@ public class Controlador extends HttpServlet {
             (PrintWriter out = response.getWriter()) {
             
             String accion=request.getParameter("accion");
+            String accion2=request.getParameter("accion2");
             HttpSession session = request.getSession();
             
             
@@ -52,7 +53,7 @@ public class Controlador extends HttpServlet {
             
             ws.Servicios dao = service.getServiciosPort();
             
-            if (accion != null) {
+            if (accion.equals(null)) {
                 if (accion.equalsIgnoreCase("Ingresar")) {
                     user.setUserName(request.getParameter("txtLogin"));
                     user.setContrasena(request.getParameter("txtPassword"));
@@ -74,6 +75,29 @@ public class Controlador extends HttpServlet {
                     request.getRequestDispatcher("Vistas/index.jsp").forward(request, response);
                     return;
                 }
+            }
+            
+            String clNombre;
+            String clApellidos;
+            String clDui;
+            String clTelefono;
+            String clEmail;
+            String clUser;
+            String clPass;
+            
+            if(accion.equals("Registro")){
+                
+                switch (accion2){
+                case "Registro":
+                        clNombre=request.getParameter("nombre");
+                        clApellidos=request.getParameter("apellidos");
+                        clDui=request.getParameter("dui");
+                        clTelefono= request.getParameter("telefono");
+                       clEmail=request.getParameter("email");
+                        clUser=request.getParameter("pickname");
+                        clPass=request.getParameter("pass");
+                        dao.agregarCliente(clNombre, clApellidos, clDui,"Fake Street land", clTelefono, clEmail, clUser, clPass, Patron);
+                        }
             }
 
         }

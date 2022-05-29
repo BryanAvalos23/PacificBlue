@@ -9,6 +9,29 @@
         <link rel = "icon" href = "../img/logo.png" type = "image/png">
         <link rel="stylesheet" href="../css/main.css">
     </head>
+        <script type="text/javascript">
+        function AlertaBorrar(){
+            var respuesta = confirm("Está seguro de eliminar usuario?");
+            if (respuesta)
+                return true;
+            else
+                return false;
+        }
+        function AlertaAgregar(){
+            var respuesta = confirm("Está seguro de agregar usuario?");
+            if (respuesta)
+                return true;
+            else
+                return false;
+        }
+        function AlertaModificar(){
+            var respuesta = confirm("Está seguro de modificar usuario?");
+            if (respuesta)
+                return true;
+            else
+                return false;
+        }         
+    </script>
     <body class="bodyRegistro">
         <!-- header -->
         <header class="header-Registro">
@@ -71,7 +94,8 @@
                         <div class="button-registro">
                             <div class="button">
                                 <div class="centerbutton">
-                                    <input type="submit" value="Registrarse">
+                                    
+                                    <input type="submit" name="accion2" value="Registro" class="btn btn-info" onclick="return AlertaAgregar()">
                                 </div>
                             </div>
                         </div>

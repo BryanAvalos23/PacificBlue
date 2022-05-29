@@ -1,3 +1,7 @@
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 <%@page contentType="text/html" pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
 <html lang="es">
@@ -43,7 +47,7 @@
                 <li><a href = "#rooms">Habitaciones</a></li>
                 <li><a href = "#customers">Opiniones</a></li>
             </ul>
-            <button class = "btn sign-up" id="sign-up"><a href="Vistas/registro.jsp">sign up</a></button>
+            <button class = "btn sign-up" name="accion" value="Registro" id="sign-up"><a href="Vistas/registro.jsp">sign up</a></button>
             <button class = "btn log-in" name="accion"value="Ingresar"id="buttonlog">log in</button>
             
             <div class="container-FormLog">
