@@ -50,7 +50,7 @@ public class Controlador extends HttpServlet {
             
             ws.Servicios dao = service.getServiciosPort();
             
-            if (accion == "Ingresar") {
+            if (accion != null) {
                 if (accion.equalsIgnoreCase("Ingresar")) {
                     user.setUserName(request.getParameter("txtLogin"));
                     user.setContrasena(request.getParameter("txtPassword"));
